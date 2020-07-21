@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'projeto1-roda-da-fortuna-starter.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJwcm9qZXRvMS1yb2RhLWRhLWZvcnR1bmEtc3RhcnRlci5qbmxwIj4KICA8aW5mb3JtYXRpb24+CiAgICA8dGl0bGU+cHJvamV0bzEtcm9kYS1kYS1mb3J0dW5hLXN0YXJ0ZXI8L3RpdGxlPgogICAgPHZlbmRvcj5icmF1bGlvPC92ZW5kb3I+CiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+CiAgICA8b2ZmbGluZS1hbGxvd2VkLz4KICA8L2luZm9ybWF0aW9uPgogIDxyZXNvdXJjZXM+CiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+CiAgICA8amFyIGhyZWY9InByb2pldG8xLXJvZGEtZGEtZm9ydHVuYS1zdGFydGVyLmphciIgc2l6ZT0iMTA1MDAiIGRvd25sb2FkPSJlYWdlciIgLz4KICA8L3Jlc291cmNlcz4KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0icm9kYV9kYV9mb3J0dW5hLlJvZGFEYUZvcnR1bmFTdGFydGVyIiAgbmFtZT0icHJvamV0bzEtcm9kYS1kYS1mb3J0dW5hLXN0YXJ0ZXIiIC8+CiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+Cjwvam5scD4K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedroda_da_fortuna() {
+        dtjava.embed(
+            {
+                id : 'roda_da_fortuna',
+                url : 'projeto1-roda-da-fortuna-starter.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJwcm9qZXRvMS1yb2RhLWRhLWZvcnR1bmEtc3RhcnRlci5qbmxwIj4KICA8aW5mb3JtYXRpb24+CiAgICA8dGl0bGU+cHJvamV0bzEtcm9kYS1kYS1mb3J0dW5hLXN0YXJ0ZXI8L3RpdGxlPgogICAgPHZlbmRvcj5icmF1bGlvPC92ZW5kb3I+CiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+CiAgICA8b2ZmbGluZS1hbGxvd2VkLz4KICA8L2luZm9ybWF0aW9uPgogIDxyZXNvdXJjZXM+CiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+CiAgICA8amFyIGhyZWY9InByb2pldG8xLXJvZGEtZGEtZm9ydHVuYS1zdGFydGVyLmphciIgc2l6ZT0iMTA1MDAiIGRvd25sb2FkPSJlYWdlciIgLz4KICA8L3Jlc291cmNlcz4KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0icm9kYV9kYV9mb3J0dW5hLlJvZGFEYUZvcnR1bmFTdGFydGVyIiAgbmFtZT0icHJvamV0bzEtcm9kYS1kYS1mb3J0dW5hLXN0YXJ0ZXIiIC8+CiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+Cjwvam5scD4K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedroda_da_fortuna);
+</script>
+
+</head><body>
+<h2>Test page for <b>projeto1-roda-da-fortuna-starter</b></h2>
+  <b>Webstart:</b> <a href='projeto1-roda-da-fortuna-starter.jnlp' onclick="return launchApplication('projeto1-roda-da-fortuna-starter.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
